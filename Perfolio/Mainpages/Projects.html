@@ -2,18 +2,26 @@
 <html lang="en">
 	
 <head>
-	<?php
-	$Title = "Projects";
-	include "../Sections/Head.php";
-	?>
+	<meta charset="utf-8">
+	<title>Liam Website</title>
+	<link href="../Sections/CSS/reset.css" rel="stylesheet" />
+	<link href="../Sections/CSS/Footer.css" rel="stylesheet"/>
+	<link href="../Sections/CSS/Nav.css" rel="stylesheet"/>
+	<link href="../Sections/CSS/stylespersonalweb.css" rel="stylesheet"/>
 	<link href="../Sections/CSS/stylespersonalweb.css" rel="stylesheet"/>
 </head>
 
 <body>
-<?php
-	include "../Sections/Header.php";
-	include "../Sections/nav.php";
-?>
+	<header>
+		<h1>Projects</h1>
+	</header>
+	<div class="topnav">
+		<a href="../../index.html"><b>Home</b></a>
+		<a href="About.html"><b>About</b></a>
+		<a href="Projects.html"><b>Projects</b></a>
+		<!--<a href="Contact.php"><b>Contact</b></a> -->
+		<a href='Resume.html'><b>Resume</b></a>
+	</div>
 <article>
 <section>
 	<h2> Projects </h2>
@@ -27,9 +35,12 @@
 	</ul>
 </section>
 </article>
-<?php
-	include "../Sections/Footer.php";
-?>
+<footer class="foot">
+	<address> Website made and designed by Liam Mortan.</address>
+    <p> For more information and to contact me go to <a href="mailto:liampgmorton@gmail.com">liampgmorton@gmail.com</a></p>
+    <a href="https://www.linkedin.com/in/liam-paul-morton/"><img style="width: 5%; float: right; margin: 10px;" src="../img/linked-in-circle.png" alt="picture of me" /></a>
+    <a href="https://liammorton-akasquidgy.itch.io"><img style="width: 5%; float: right; margin: 10px;" src="../img/itch-io.png" alt="picture of me" /></a>
+</footer>
 </body>
 
 </html>
