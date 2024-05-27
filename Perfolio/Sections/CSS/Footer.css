@@ -1,0 +1,9 @@
+.foot {
+    clear: both;
+    background-color: #3F72AF;
+    overflow: hidden;
+}
+
+.foot p, .foot address, .foot a {
+    color: white;
+}
