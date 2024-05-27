@@ -2,23 +2,28 @@
 <html lang="en">
 	
 <head>
-	<?php
-	$Title = "Liam Morton";
-	include "../Sections/Head.php";
-	?>
-	<link href="../Sections/CSS/stylespersonalweb.css" rel="stylesheet"/>
+	<meta charset="utf-8">
+	<title>Liam Website</title>
+	<link href="/Perfolio/Sections/CSS/reset.css" rel="stylesheet" />
+	<link href="/Perfolio/Sections/CSS/Footer.css" rel="stylesheet"/>
+	<link href="/Perfolio/Sections/CSS/Nav.css" rel="stylesheet"/>
+	<link href="/Perfolio/Sections/CSS/stylespersonalweb.css" rel="stylesheet"/>
 </head>
 
 <body>
-<?php
-	include "../Sections/Header.php";
-	include "../Sections/nav.php";
-?>
+	<h1>Liam Morton</h1>
+	<div class="topnav">
+		<a href="index.html"><b>Home</b></a>
+		<!-- <a href="About.php"><b>About</b></a> -->
+		<a href="/perfolio/Mainpages/Projects.html">Projects</a>
+		<!--<a href="Contact.php"><b>Contact</b></a> -->
+		<a href='/perfolio/Mainpages/Resume.html'><b>Resume</b></a>
+	</div>
 <article>
 	
 	<section>
 		<h2> About Me </h2>
-		<img id="me" src="../img/picme.jpg" alt="picture of me" />
+		<img id="me" src="/perfolio/img/picme.jpg" alt="picture of me" />
 		<p style="text-align: justify;"><b> 
 			Hi, my name is Liam Morton. I live in Nova Scotia Canada. I am currently completing my second year in the IT Programming course located at COGS NSCC. 			
 			<br /><br />
@@ -27,9 +32,12 @@
 		</p></b>
 	</section>
 </article>
-<?php
-	include "../Sections/Footer.php";
-?>
+<footer class="foot">
+	<address> Website made and designed by Liam Mortan.</address>
+    <p> For more information and to contact me go to <a href="mailto:liampgmorton@gmail.com">liampgmorton@gmail.com</a></p>
+    <a href="https://www.linkedin.com/in/liam-paul-morton/"><img style="width: 5%; float: right; margin: 10px;" src="Perfolio/img/linked-in-circle.png" alt="picture of me" /></a>
+    <a href="https://liammorton-akasquidgy.itch.io"><img style="width: 5%; float: right; margin: 10px;" src="Perfolio/img/itch-io.png" alt="picture of me" /></a>
+</footer>
 </body>
 
 </html>
